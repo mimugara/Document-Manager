@@ -1,0 +1,85 @@
+JOCS DE PROVA D'ALTA DOCUMENT
+(Per realitzar aquests Jocs de Prova no es necessita utilitzar altres classes)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+
+Donar d'alta un document de manera correcta
+
+    Passos a seguir:
+        Anar al menú Alta Document
+
+        Introduir a:
+            Titol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Contingut: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+        Clicar botó Crear
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Crear que confirmi que s'ha donat d'alta correctament
+
+    Resultat: 
+        El document s'ha donat d'alta correctament i s'actualitza la base de dades
+
+
+
+Donar d'alta un document amb el camp Títol buit
+
+    Passos a seguir:
+        Anar al menú Alta Document
+
+        Introduir a:
+            Autor: Miguel de Cervantes
+            Contingut: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+        Clicar botó Crear
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Crear que confirma que no es pot crear un document sense títol
+
+    Resultat:
+        El document no s'ha creat i no hi ha canvis en la base de dades
+
+
+
+Donar d'alta un document amb el camp Autor buit
+
+    Passos a seguir:
+        Anar al menú Alta Document
+
+        Introduir a:
+            Títol: Don Quijote de la Mancha
+            Contingut: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+        Clicar botó Crear
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Crear que confirma que no es pot crear un document sense autor
+
+
+    Resultat:
+        El document no s'ha creat i no hi ha canvis en la base de dades
+
+
+
+Donar d'alta un document que ja existeix (mateix títol i mateix autor)
+
+    Passos a seguir:
+        Anar al menú Alta Document
+
+        Introduir a:
+            Títol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+
+        Clicar botó Crear
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Crear que confirma que no es pot crear un document que ja existeix
+
+    Resultat:
+        El document no s'ha creat i no hi ha canvis en la base de dades
+
+
+
+

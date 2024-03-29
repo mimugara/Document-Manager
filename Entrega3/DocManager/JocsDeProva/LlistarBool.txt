@@ -1,0 +1,74 @@
+JOCS DE PROVA DE Llistar documents a partir d'expressió booleana.
+
+(Per realitzar aquests Jocs de Prova es necessita utilitzar les classes AltaDocument i AltaBool i se suposa que funcionen correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+IMPORTANT: els següents jocs de prova es faran de manera seqüencial ja que d'aquesta manera ens estalviem donar d'alta documents que ja hem donat d'alta
+
+Cas base Llistar documents a partir d'expressió booleana.
+
+
+    Passos a seguir:
+        Anar al menú Alta Document
+        Introduir a:
+            Títol: El futbol
+            Autor: Joan 
+            Contingut: El futbol és el millor esport
+            
+            Clicar botó Crear
+
+            Títol: El esport
+            Autor: Martí 
+            Contingut: El futbol es un esport d'equip.
+            Clicar botó Crear
+
+            Títol: Capitán Alatriste
+            Autor: Reverte 
+            Contingut: Soc poc semblant als altres documents.
+
+            Clicar botó Crear
+
+        Clicar el botó Inici
+        Anar al menú Alta Expressió Booleana
+            Introduir a:
+                Nom: prova
+                Expressió Booleana: "futbol"
+        
+        Clicar a Inici
+        Clicar Menú -> Llistar documents a partir d'expressió booleana.
+
+        Introduir a:
+            Expressió booleana: prova
+        Clicar botó buscar expressió
+
+    Comprovar que:
+        No apareixi un missatge d'error (en vermell)
+
+    Resultat: 
+        Al quadre de text s'ha mostrat el arbre relatiu a l'expressió prova
+
+        Clicar botó buscar expressió
+
+    Comprovar que:
+        No apareixi un missatge d'error (en vermell)
+
+    Resultat: 
+        Al quadre de text s'ha mostrat els documents amb títol 'El futbol' (Joan), 'El esport' (Martí).
+
+
+
+Cas en el que la expressió booleana és inexistent
+    Passos a seguir:
+        Clicar Menú -> Llistar documents a partir d'expressió booleana.
+
+        Introduir a:
+            Expressió booleana: malament
+        Clicar botó Buscar expressió
+        Clicar al botó Mostrar documents
+
+    Comprovar que:
+         Sí que apareixi un missatge d'error (en vermell) indicant que l'expressió booleana no existeix
+    Resultat: 
+       Al quadre de text no es mostra res
+

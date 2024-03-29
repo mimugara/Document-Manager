@@ -1,0 +1,188 @@
+JOCS DE PROVA DE CARREGAR DOCUMENT
+(Per realitzar aquests Jocs de Prova es necessita utilitzar la classe MostrarContingut i se suposa que funciona correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+
+Carregar Documents en format txt correctament
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Els tres porquets.txt
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Crear que confirmi que s'ha carregat correctament
+        Si anem al menú mostrar contingut podem buscar el document carregat i comrpovar que hi és i té el contingut esperat
+
+    Resultat: 
+        El document s'ha carregat correctament i s'actualitza la base de dades
+
+
+
+Carregar Documents en format xml correctament
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Els tres porquets.xml
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Crear que confirmi que s'ha carregat correctament
+        Si anem al menú mostrar contingut podem buscar el document carregat i comrpovar que hi és i té el contingut esperat
+
+    Resultat: 
+        El document s'ha carregat correctament i s'actualitza la base de dades
+
+
+
+Carregar Documents en format json correctament
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Els tres porquets.json
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Crear que confirmi que s'ha carregat correctament
+        Si anem al menú mostrar contingut podem buscar el document carregat i comrpovar que hi és i té el contingut esperat
+
+    Resultat: 
+        El document s'ha carregat correctament i s'actualitza la base de dades
+
+
+
+Carregar Documents en format json sense títol
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Sense_títol.json
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Carregar que confirmi que no s'ha carregat ja que no té títol
+
+    Resultat: 
+        No hi ha cap canvi a la base de dades
+
+(json és l'únic format que podria no tenir títol ja que a la resta de formats el títol és el nom del document)
+
+
+Carregar Documents en format txt sense autor
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Sense_autor.txt
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Carregar que confirmi que no s'ha carregat ja que no té autor
+
+    Resultat: 
+        No hi ha cap canvi a la base de dades
+
+
+
+Carregar Documents en format xml sense autor
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Sense_autor.xml
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Carregar que confirmi que no s'ha carregat ja que no té autor
+
+    Resultat: 
+        No hi ha cap canvi a la base de dades
+
+
+
+Carregar Documents en format json sense autor
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Sense_autor.json
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Carregar que confirmi que no s'ha carregat ja que no té autor
+
+    Resultat: 
+        No hi ha cap canvi a la base de dades
+
+
+
+Carregar Document en format txt que ja existeix
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Els tres porquets.txt
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Com que abans ja hem carregat aquest document es vegi un missatge de color vermell al costat del botó Carregar que confirmi que no s'ha carregat ja que ja existeix
+
+    Resultat: 
+        No hi ha cap canvi a la base de dades
+
+
+
+Carregar Document en format xml que ja existeix
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Els tres porquets.xml
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Com que abans ja hem carregat aquest document es vegi un missatge de color vermell al costat del botó Carregar que confirmi que no s'ha carregat ja que ja existeix
+
+    Resultat: 
+        No hi ha cap canvi a la base de dades
+
+
+
+Carregar Document en format json que ja existeix
+
+    Passos a seguir:
+        Anar al menú Carregar Docuement
+
+        Introduir a:
+            El buscador de fitxer la ubicació del fitxer Els tres porquets.json
+
+        Clicar botó Carregar
+
+    Comprovar que:
+        Com que abans ja hem carregat aquest document es vegi un missatge de color vermell al costat del botó Carregar que confirmi que no s'ha carregat ja que ja existeix
+
+    Resultat: 
+        No hi ha cap canvi a la base de dades
+

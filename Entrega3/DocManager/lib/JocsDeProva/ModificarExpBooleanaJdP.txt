@@ -1,0 +1,109 @@
+JOCS DE PROVA DE MODIFICAR EXPRESSIONS BOOLEANES
+Per realitzar aquests Jocs de Prova es necessita utilitzar la classe AltaExpBooleana i es suposa que funciona correctament.
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+
+Modificar una expressió booleana de manera correcta
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Nom: pep i pepa
+            Expressió Booleana: "pep" i !"pepa" 
+
+        Clicar el botó Donar d'alta
+
+        Clicar el botó Inici
+
+        Anar al Menú Modificar expressió booleana
+
+        Introduir a:
+            Nom: pep i pepa
+            Expressió Booleana: "pep" i "pepa"
+
+        Clicar botó Esborrar
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Esborrar que confirmi que s'ha donat de baixa correctament
+        Es mostri l'arbre de la nova expressió booleana al panell central
+
+    Resultat: 
+        L'expressió booleana ha sigut modificada correctament i s'ha actualitzat la base de dades
+
+
+
+Modificar una expressió booleana que no existeix
+
+    Passos a seguir:
+        Anar al Menú Modificar expressió booleana
+
+        Introduir a:
+            Nom: aquesta expressió no existeix
+            Expressió Booleana: "aquesta expressió no existeix"
+
+        Clicar botó Modificar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Esborrar que informi de l'error
+        
+    Resultat: 
+        L'expressió booleana no ha sigut modificada i no hi ha canvis a la base de dades
+
+
+
+Modificar una expressió booleana amb el camp Expressió Booleana buit
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Nom: vermell o blau
+            Expressió Booleana: "vermell" & "blau"
+
+        Clicar botó Donar d'alta
+
+        Clicar el botó Inici
+
+        Anar al Menú Modificar expressió booleana
+
+        Introduir a:
+            Nom: vermell o blau
+            
+        Clicar botó Modificar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Esborrar que informi de l'error
+
+    Resultat:
+        L'expressió booleana no ha sigut modificada i no hi ha canvis a la base de dades
+
+
+
+Modificar una expressió booleana amb una Expressió Booleana incorrecta
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Nom: caballs i ocells
+            Expressió Booleana: "caballs" & "ocells"
+
+        Clicar botó Donar d'alta
+
+        Clicar el botó Inici
+
+        Anar al Menú Modificar expressió booleana
+
+        Introduir a:
+            Nom: caballs i ocells
+            Expressió Booleana: caballs & ocells
+
+        Clicar botó Modificar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Esborrar que informi de l'error
+
+    Resultat:
+        L'expressió booleana no ha sigut modificada i no hi ha canvis a la base de dades

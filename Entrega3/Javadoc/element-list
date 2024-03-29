@@ -1,0 +1,13 @@
+database
+datalayer
+datalayer.databaseinterface
+domainlayer
+domainlayer.controllers
+domainlayer.datainterface
+domainlayer.model
+presentationlayer
+utils
+utils.exceptions
+utils.exceptions.boolexpression
+utils.exceptions.database
+utils.exceptions.document

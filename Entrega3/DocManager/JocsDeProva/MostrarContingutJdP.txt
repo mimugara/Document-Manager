@@ -1,0 +1,119 @@
+JOCS DE PROVA DE MOSTRAR CONTINGUT D'UN DOCUMENT
+(Per realitzar aquests Jocs de Prova es necessita utilitzar la classe AltaDocument i se suposa que funciona correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+
+Mostrar un document de manera correcta
+
+    Passos a seguir:
+        Anar al menú Alta Document
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Desconegut 
+            Contingut: Era una vegada tres porquets que van anar a construir una casa. El primer va construir una casa de fusta, el segon va construir una casa de pedra i el tercer va construir una casa de fusta, pedra i teula.
+
+        Clicar botó Crear
+
+        Clicar el botó Inici
+
+        Anar al menú Mostrar Contingut
+
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Desconegut
+
+        Clicar botó Mostrar
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Esborrar que confirma si s'ha mostrar correctament
+        Apareix el contingut que hem introduït a l'alta
+
+    Resultat: 
+        Al quadre de text s'ha mostrat el contingut del document
+
+
+
+Mostrar un document de manera correcte però amb el contingut buit
+
+    Passos a seguir:
+        Anar al menú Alta Document
+
+        Introduir a:
+            Títol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+
+        Clicar botó Crear
+
+        Clicar el botó Inici
+
+        Anar al menú Mostrar Contingut
+
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Desconegut
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Mostrar confirmant que s'ha mostrat correctament
+        El quadre de text on hi hauria d'haver la informació està buit
+
+    Resultat: 
+        Al quadre de text no s'ha mostrat res ja que el document no té contingut
+
+
+
+Mostrar un document que no existeix
+
+    Passos a seguir:
+        Anar al menú Mostrar Contingut 
+
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Miguel de Cervantes
+
+        Clicar botó Mostrar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Mostrar que informi de l'error
+        
+    Resultat: 
+        No es mostra res al quadre de text
+
+
+
+Mostrar un document amb el camp títol buit
+
+    Passos a seguir:
+        Anar al menú Mostrar Contingut
+
+        Introduir a:
+            Autor: Miguel de Cervantes
+            
+        Clicar botó Mostrar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Mostrar que informi de l'error
+
+    Resultat:
+        No es mostra res al quadre de text
+
+
+
+Mostrar un document amb el camp autor buit
+
+    Passos a seguir:
+        Anar al menú Mostrar Contingut
+
+        Introduir a:
+            Títol: Els tres porquets
+
+        Clicar botó Mostrar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Mostrar que informi de l'error
+
+    Resultat:
+        No es mostra res al quadre de text
+

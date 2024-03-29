@@ -1,0 +1,139 @@
+JOCS DE PROVA DE GUARDAR DOCUMENT
+(Per realitzar aquests Jocs de Prova es necessita utilitzar la classe MostrarContingut i se suposa que funciona correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+Guardar un document correctament en txt
+
+    Passos a seguir:        
+        Anar al menú Alta Document
+
+        Introduir a:
+            Titol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Contingut: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+        Clicar botó Crear
+
+        Anar al menú Guardar document
+
+        Introduir a:
+            Títol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Path: /home/"usuari"/Documents/DonQuijote.txt (canviar el path per on volguem guardar el document)
+
+        Clicar botó Guardar dues vegades  (la primera crea el fitxer i el segon l'omple)
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Crear que confirmi que s'ha guardat correctament
+        Si anem a la ubicació que hem indicat trobarem el document guardat
+
+    Resultat: 
+        El document s'ha guardat correctament i el podem trobar al directori indicat
+
+
+
+Guardar un document correctament en xml
+
+    Passos a seguir:        
+        Anar al menú Alta Document
+
+        Introduir a:
+            Titol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Contingut: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+        Clicar botó Crear
+
+        Anar al menú Guardar document
+
+        Introduir a:
+            Títol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Path: /home/"usuari"/Documents/DonQuijote.xml (canviar el path per on volguem guardar el document)
+
+        Clicar botó Guardar dues vegades  (la primera crea el fitxer i el segon l'omple)
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Crear que confirmi que s'ha guardat correctament
+        Si anem a la ubicació que hem indicat trobarem el document guardat
+
+    Resultat: 
+        El document s'ha guardat correctament i el podem trobar al directori indicat
+
+
+
+Guardar un document correctament en json
+
+    Passos a seguir:        
+        Anar al menú Alta Document
+
+        Introduir a:
+            Titol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Contingut: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+        Clicar botó Crear
+
+        Anar al menú Guardar document
+
+        Introduir a:
+            Títol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Path: /home/"usuari"/Documents/DonQuijote.json (canviar el path per on volguem guardar el document)
+
+        Clicar botó Guardar dues vegades  (la primera crea el fitxer i el segon l'omple)
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Crear que confirmi que s'ha guardat correctament
+        Si anem a la ubicació que hem indicat trobarem el document guardat
+
+    Resultat: 
+        El document s'ha guardat correctament i el podem trobar al directori indicat
+
+
+
+Guardar un document que no existeix
+
+        Anar al menú Guardar document
+
+        Introduir a:
+            Títol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Path: /home/"usuari"/Documents/DonQuijote.json (canviar el path per on volguem guardar el document)
+
+        Clicar botó Guardar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó guardar que confirma que no existeix el document
+
+    Resultat: 
+        No s'ha creat cap document
+
+
+
+Guardar un document en un path que no existeix
+
+    Passos a seguir:        
+        Anar al menú Alta Document
+
+        Introduir a:
+            Titol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Contingut: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.
+
+        Clicar botó Crear
+
+        Anar al menú Guardar document
+
+        Introduir a:
+            Títol: Don Quijote de la Mancha
+            Autor: Miguel de Cervantes
+            Path: /home/"usuari"/Carpetainexistent/DonQuijote.txt
+
+        Clicar botó Guardar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell indicant el path que hem posat i que ens confirma que no existeix
+
+    Resultat: 
+        No s'ha creat cap document

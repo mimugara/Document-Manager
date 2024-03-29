@@ -1,0 +1,39 @@
+JOCS DE PROVA DE MODIFICAR DOCUMENT
+(Per realitzar aquests Jocs de Prova es necessita utilitzar la classe AltaDocument i MostrarDocument i se suposa que funcionen correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+
+Modificar un document de manera correcta
+
+    Passos a seguir:
+        Anar al menú Alta Document
+
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Desconegut
+            Contingut: Els tres porquets van anar a construir-se una casa. El primer va construir-se una casa de fusta, el segon una casa de pedra i el tercer una casa de fusta.
+
+        Clicar botó Crear
+
+        Clicar el botó Inici
+
+        Anar al Menú Modificar Document
+
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Desconegut
+
+        Clicar botó Buscar
+
+        Editar al quadre de text i canviar el text actual per: I el llop se'ls va menjar a tots tres.
+        
+        Clicar botó Guardar
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Guardar que confirmi que s'ha modificat correctament
+
+    Resultat: 
+        El document ha estat modificat correctament i s'ha actualitzat la base de dades
+
+Se suposa que si es fan canvis als camps Títol i Autor es farà un altre buscar just després.

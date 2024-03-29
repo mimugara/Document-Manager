@@ -1,0 +1,136 @@
+JOCS DE PROVA DE LLISTAR ELS TÍTOLS D'UN AUTOR
+(Per realitzar aquests Jocs de Prova es necessita utilitzar les classes AltaDocument i BaixaDocument i se suposa que funcionen correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+IMPORTANT: els següents jocs de prova es faran de manera seqüencial ja que d'aquesta manera ens estalviem donar d'alta documents que ja hem donat d'alta
+
+Cas base llistar títols del autor
+
+    Passos a seguir:
+        Anar al menú Alta Document
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Cervantes 
+            Contingut: Era una vegada tres porquets que van anar a construir una casa. El primer va construir una casa de fusta, el segon va construir una casa de pedra i el tercer va construir una casa de fusta, pedra i teula.
+            
+            Clicar botó Crear
+
+            Títol: Els tres llops
+            Autor: Cervantes 
+            Contingut: Aquest es el contingut del segon document que estem donant d'alta
+
+            Clicar botó Crear
+
+            Títol: Els tres bessons
+            Autor: Reverte 
+            Contingut: Aquest document no es llistarà ja que no es de Cervantes.
+
+            Clicar botó Crear
+
+        Clicar el botó Inici
+
+        Anar al menú Llistar documents per autor
+
+        Introduir a:
+            Autor: Cervantes
+
+        Clicar botó Mostrar
+
+    Comprovar que:
+        No apareixi un missatge d'error (en vermell) indicant que l'autor no existeix
+
+    Resultat: 
+        Al quadre de text s'han mostrat els títols de l'autor Cervantes ("Els tres llops" i "Els tres porquets")
+
+
+
+Llistar els documents d'un autor després de la baixa d'un document d'aquest autor 
+
+    Passos a seguir:
+        Anar al menú Esborrar document
+
+        Introduir a:
+            Títol: Els tres llops
+            Autor: Cervantes 
+
+        Clicar botó Esborrar
+
+        Clicar el botó Inici
+
+        Anar al menú Llistar documents per autor
+
+        Introduir a:
+            Autor: Cervantes
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+         No apareixi un missatge d'error (en vermell) indicant que l'autor no existeix
+
+
+    Resultat: 
+       Al quadre de text s'han mostrat els títols de l'autor Cervantes ("Els tres porquets")
+
+
+
+Llistar títols d'un autor que tenía documents pero ja no en té
+
+   Passos a seguir:
+        Anar al menú Esborrar document
+
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Cervantes 
+
+        Clicar botó Esborrar
+
+        Clicar el botó Inici
+
+        Anar al menú Llistar documents per autor
+
+        Introduir a:
+            Autor: Cervantes
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+         Sí apareix un missatge d'error (en vermell) indicant que l'autor no existeix
+
+
+    Resultat: 
+       El quadre de text està buit
+
+
+
+
+Llistar títols d'un autor que mai ha existit
+
+        Anar al menú Llistar documents per autor
+
+        Introduir a:
+            Autor: Desconegut
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+         Sí apareix un missatge d'error (en vermell) indicant que l'autor no existeix
+
+
+    Resultat: 
+       El quadre de text està buit
+
+
+Mostrar un document amb el camp autor buit
+
+    Passos a seguir:
+        Anar al menú Llistar documents per autor
+
+        Clicar botó Mostrar
+
+    Comprovar que:
+        Sí apareix un missatge d'error (en vermell) indicant que l'autor no existeix
+
+    Resultat:
+        No es mostra res al quadre de text
+

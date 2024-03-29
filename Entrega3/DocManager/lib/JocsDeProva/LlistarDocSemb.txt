@@ -1,0 +1,109 @@
+JOCS DE PROVA DE LLISTAR DOCUMENTS PER SEMBLANÇA
+(Per realitzar aquests Jocs de Prova es necessita utilitzar les classes AltaDocument i BaixaDocument i se suposa que funcionen correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+IMPORTANT: els següents jocs de prova es faran de manera seqüencial ja que d'aquesta manera ens estalviem donar d'alta documents que ja hem donat d'alta
+
+Cas base llistar documents per semblança
+
+    Passos a seguir:
+        Anar al menú Alta Document
+        Introduir a:
+            Títol: El futbol
+            Autor: Joan 
+            Contingut: El futbol és el millor esport
+            
+            Clicar botó Crear
+
+            Títol: El esport
+            Autor: Martí 
+            Contingut: El futbol es un esport d'equip.
+            Clicar botó Crear
+
+            Títol: Capitán Alatriste
+            Autor: Reverte 
+            Contingut: Soc poc semblant als altres documents.
+
+            Clicar botó Crear
+
+        Clicar el botó Inici
+
+        Anar al menú llistar documents per semblança
+
+        Introduir a:
+            Títol:El esport Autor:Martí K: 1
+
+        Clicar botó Mostrar
+
+    Comprovar que:
+        No apareixi un missatge d'error (en vermell)
+
+    Resultat: 
+        Al quadre de text s'ha mostrat el document amb títol 'El futbol' (Joan).
+
+
+Llistar documents més semblants amb un autor que no existeix
+
+    Passos a seguir:
+        Anar al menú llistar documents per semblança
+
+        Introduir a:
+            Títol: No existeixo
+            Autor: Pedro 
+            K: 1
+
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+         Sí que apareixi un missatge d'error (en vermell) indicant que el autor no existeix
+
+
+    Resultat: 
+       Al quadre de text no es mostra res
+
+
+
+llistar documents per semblança d'un autor correcte però títol inexistent
+
+   Passos a seguir:
+        Anar al menú llistar documents per semblança
+
+        Introduir a:
+            Títol: El basquet
+            Autor: Joan 
+            K: 1
+
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+         Sí que apareixi un missatge d'error (en vermell) indicant que el títol no existeix
+
+
+    Resultat: 
+       Al quadre de text no es mostra res
+
+
+
+Llistar documents més semblants amb un autor buit
+
+    Passos a seguir:
+        Anar al menú llistar documents per semblança
+
+        Introduir a:
+            Títol: Els basquet
+            Autor:  [buit]
+            K: 1
+
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+         Sí que apareixi un missatge d'error (en vermell) indicant que el autor no existeix
+
+
+    Resultat: 
+       Al quadre de text no es mostra res
+

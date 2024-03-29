@@ -1,0 +1,85 @@
+JOCS DE PROVA D'ALTA D'EXPRESSIONS BOOLEANES
+Per realitzar aquests Jocs de Prova no es necessita utilitzar altres classes.
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+
+Donar d'alta una expressió booleana de manera correcta
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Nom: dia i nit
+            Expressió Booleana: "dia" & "nit"
+
+        Clicar botó Donar d'alta
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Donar d'alta que confirmi que s'ha donat d'alta correctament
+        Es mostri l'arbre de l'expressió booleana al panell central
+
+    Resultat: 
+        L'expressió booleana s'ha donat d'alta correctament i s'actualitza la base de dades
+
+
+
+Donar d'alta una expressió booleana amb el camp Nom buit (l'identificador d'aquesta expressió booleana exiteix i és buit)
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Expressió Booleana: "hola" & !"bon dia"
+
+        Clicar botó Donar d'alta
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Donar d'alta que confirmi que s'ha donat d'alta correctament
+        Es mostri l'arbre de l'expressió booleana al panell central
+
+    Resultat:
+        L'expressió booleana s'ha donat d'alta correctament i s'actualitza la base de dades
+
+
+
+Donar d'alta una expressió booleana amb el camp Expressió Booleana buit
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Nom: camp o ciutat
+
+        Clicar botó Donar d'alta
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Donar d'alta que informi de l'error
+        No es mostri l'arbre de l'expressió booleana al panell central
+
+    Resultat:
+        L'expressió booleana no s'ha donat d'alta i no hi ha canvis en la base de dades
+
+
+
+Donar d'alta una expressió booleana amb un Nom que ja existeix
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Nom: dia i nit
+            Expressió Booleana: "dia" & "nit" & !"tarda"
+
+        Clicar botó Donar d'alta
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Donar d'alta que infor de l'error
+        No es mostri l'arbre de l'expressió booleana al panell central
+
+    Resultat:
+        L'expressió booleana es manté com estava abans de l'intent de donar d'alta i no hi ha canvis en la base de dades
+
+
+
+

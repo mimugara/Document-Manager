@@ -1,0 +1,64 @@
+JOCS DE PROVA DE BAIXA D'EXPRESSIONS BOOLEANES
+Per realitzar aquests Jocs de Prova es necessita utilitzar la classe AltaExpBooleana i es suposa que funciona correctament.
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+
+Donar de baixa una expressió booleana de manera correcta
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Nom: pilota i camp i no futbol
+            Expressió Booleana: {pilota camp} & !"futbol"
+
+        Clicar botó Donar d'alta
+
+        Clicar el botó Inici
+
+        Anar al Menú Esborrar expressió booleana
+
+        Introduir a:
+            Nom: pilota i camp i no futbol
+
+        Clicar botó Esborrar
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Esborrar que confirmi que s'ha donat de baixa correctament
+
+    Resultat:
+        L'expressió booleana s'ha donat de baixa correctament i s'actualitza la base de dades
+
+
+
+Donar de baixa una expressió booleana que no existeix
+
+    Passos a seguir:
+        Anar al Menú Alta expressió booleana
+
+        Introduir a:
+            Nom: avió i no cotxe
+            Expressió Booleana: "avió" & !"cotxe"
+
+        Clicar botó Donar d'alta
+
+        Clicar el botó Inici
+
+        Anar al Menú Baixa expressió booleana
+
+        Introduir a:
+            Nom: avió i no cotxe
+
+        Clicar botó Esborrar
+
+        Tornar a introduir a:
+            Nom: avió i no cotxe
+
+        Clicar botó Esborrar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Esborrar que informi de l'error
+
+    Resultat:
+        L'expressió booleana no s'ha donat de baixa i no hi ha canvis en la base de dades

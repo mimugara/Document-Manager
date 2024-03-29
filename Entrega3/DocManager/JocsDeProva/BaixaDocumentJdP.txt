@@ -1,0 +1,54 @@
+JOCS DE PROVA DE BAIXA DOCUMENT
+(Per realitzar aquests Jocs de Prova es necessita utilitzar la classe AltaDocument i se suposa que funciona correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+
+
+Donar de baixa un document de manera correcta
+
+    Passos a seguir:
+        Anar al menú Alta Document
+
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Desconegut
+            Contingut: Era una vegada tres porquets que van anar a construir una casa. El primer va construir una casa de fusta, el segon va construir una casa de pedra i el tercer va construir una casa de fusta, pedra i teula.
+
+        Clicar botó Crear
+
+        Clicar el botó Inici
+
+        Anar al menú Esborrar Document
+
+        Introduir a:
+            Títol: "Els tres porquets"
+            Autor: "Desconegut"
+
+        Clicar botó Esborrar
+
+    Comprovar que:
+        Es vegi un missatge de color verd al costat del botó Esborrar que confirmi que s'ha donat de esborrat correctament
+
+    Resultat:
+        El document s'ha esborrat correctament i s'actualitza la base de dades
+
+
+
+Donar de baixa un document que no existeix
+
+    Passos a seguir:
+        Anar al menú Esborrar
+
+        Introduir a:
+            Títol: "Els tres porquets"
+            Autor: "Desconegut"
+
+        Clicar botó Esborrar
+
+        Tornar a clicar el botó Esborrar
+
+    Comprovar que:
+        Es vegi un missatge de color vermell al costat del botó Esborrar que informi de l'error
+
+    Resultat:
+        No hi ha canvis en la base de dades

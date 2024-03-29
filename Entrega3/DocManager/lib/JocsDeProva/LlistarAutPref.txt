@@ -1,0 +1,108 @@
+JOCS DE PROVA DE LLISTAR AUTORS PER PREFIX
+(Per realitzar aquests Jocs de Prova es necessita utilitzar les classes AltaDocument i BaixaDocument i se suposa que funcionen correctament)
+És preferible realitzar els jocs de prova amb la base de dades buida per evitar possibles conflictes.
+
+IMPORTANT: els següents jocs de prova es faran de manera seqüencial ja que d'aquesta manera ens estalviem donar d'alta documents que ja hem donat d'alta
+
+Cas base llistar autors per prefix
+
+    Passos a seguir:
+        Anar al menú Alta Document
+        Introduir a:
+            Títol: Els tres porquets
+            Autor: Cervantes 
+            Contingut: Era una vegada tres porquets que van anar a construir una casa. El primer va construir una casa de fusta, el segon va construir una casa de pedra i el tercer va construir una casa de fusta, pedra i teula.
+            
+            Clicar botó Crear
+
+            Títol: Els tres llops
+            Autor: Cervanto 
+            Contingut: Aquest es el contingut del segon document que estem donant d'alta
+
+            Clicar botó Crear
+
+            Títol: Els tres bessons
+            Autor: Clara
+            Contingut: Aquest document no es llistarà ja que no es de Cervantes.
+
+            Clicar botó Crear
+
+        Clicar el botó Inici
+
+        Anar al menú Llistar autors per prefix
+
+        Introduir a:
+            Autor: Cerv
+
+        Clicar botó Mostrar
+
+    Comprovar que:
+        (Mai hi hauran errors sigui el que sigui l'input)
+
+    Resultat: 
+        Al quadre de text s'han mostrat els autors amb prefix Cerv ("Cervantes i Cervanto")
+
+
+
+Llistar autors per prefix després de la baixa d'un document d'un autor amb determinat prefix
+
+    Passos a seguir:
+        Anar al menú Esborrar document
+
+        Introduir a:
+            Títol: Els tres llops
+            Autor: Cervanto 
+
+        Clicar botó Esborrar
+
+        Clicar el botó Inici
+
+        Anar al menú Llistar autors per prefix
+
+        Introduir a:
+            Autor: Cerv
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+        (Mai hi hauran errors sigui el que sigui l'input)
+
+
+    Resultat: 
+     Al quadre de text s'han mostrat els autors amb prefix Cerv ("Cervantes")
+
+
+
+Llistar autors per prefix quan cap autor té aquest prefix
+
+   Passos a seguir:
+
+        Anar al menú Llistar autors per prefix
+
+        Introduir a:
+            Autor: Maria
+
+        Clicar botó Mostrar        
+
+    Comprovar que:
+         (Mai hi hauran errors sigui el que sigui l'input)
+
+
+    Resultat: 
+       El quadre de text està buit
+
+
+Llistar autors per prefix amb el camp autor buit
+
+    Passos a seguir:
+
+        Anar al menú Llistar títols d'un autor
+
+        Clicar botó Mostrar
+
+    Comprovar que:
+        (Mai hi hauran errors sigui el que sigui l'input)
+
+    Resultat:
+        Es mostren tots els autors ("Cervantes", "Clara")
+

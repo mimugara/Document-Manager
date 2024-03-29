@@ -1,0 +1,253 @@
+JOCS DE PROVA DEL MENÚ PRINCIPAL
+Aquests jocs de prova són bàsicament per mirar que els menús funcionen correctament. La única funcionalitat que es provarà és la del reset de la base de dades.
+Per realitzar el Joc de Prova del reset es necessita utilitzar la classe AltaExpBooleana i AltaDocument i es suposa que funcionen correctament.
+
+
+
+Menú Documents funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Documents
+
+    Comprovar que:
+        Aparegui un menú desplegable amb les següents opcions:
+            - Carregar document
+            - Guaardar document
+            - Alta document
+            - Modificar document
+            - Esborrar document
+            - Mostrar document
+
+   
+
+Menú Llistes funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Llistes
+
+    Comprovar que:
+        Aparegui un menú desplegable amb les següents opcions:
+            - Llistar els documents per autor
+            - Llistar els autors per prefix
+            - Llistar els documents per semblança
+            - Llistar els documents a partir d'una expressió booleana
+
+
+
+Menú Expressions Booleanes funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Expressions Booleanes
+
+    Comprovar que:
+        Aparegui un menú desplegable amb les següents opcions:
+            - Alta expressió booleana
+            - Modificar expressió booleana
+            - Esborrar expressió booleana
+
+
+
+Menú Carregar document funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Documents
+        Fer clic sobre Carregar document
+
+    Comprovar que:
+        S'obri la finestra del menú de Carregar document 
+
+
+
+Menú Guaardar document funciona correctament
+    
+        Passos a seguir:
+            Fer clic sobre el menú Documents
+            Fer clic sobre Guaardar document
+    
+        Comprovar que:
+            S'obri la finestra del menú de Guardar document
+
+
+        
+Menú Alta document funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Documents
+        Fer clic sobre Alta document
+
+    Comprovar que:
+        S'obri la finestra del menú d'Alta document
+
+
+
+Menú Modificar document funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Documents
+        Fer clic sobre Modificar document
+
+    Comprovar que:
+        S'obri la finestra del menú de Modificar document
+
+
+
+Menú Esborrar document funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Documents
+        Fer clic sobre Esborrar document
+
+    Comprovar que:
+        S'obri la finestra del menú d'Esborrar document
+
+
+
+Menú Mostrar document funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Documents
+        Fer clic sobre Mostrar document
+
+    Comprovar que:
+        S'obri la finestra del menú de Mostrar document
+
+
+
+Menú Llistar els documents per autor funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Llistes
+        Fer clic sobre Llistar els documents per autor
+
+    Comprovar que:
+        S'obri la finestra del menú de Llistar els documents per autor
+
+
+
+Menú Llistar els autors per prefix funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Llistes
+        Fer clic sobre Llistar els autors per prefix
+
+    Comprovar que:
+        S'obri la finestra del menú de Llistar els autors per prefix
+
+
+
+Menú Llistar els documents per semblança funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Llistes
+        Fer clic sobre Llistar els documents per semblança
+
+    Comprovar que:
+        S'obri la finestra del menú de Llistar els documents per semblança
+
+
+
+Menú Llistar els documents a partir d'una expressió booleana funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Llistes
+        Fer clic sobre Llistar els documents a partir d'una expressió booleana
+
+    Comprovar que:
+        S'obri la finestra del menú de Llistar els documents a partir d'una expressió booleana   
+
+
+
+Menú Alta expressió booleana funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Expressions Booleanes
+        Fer clic sobre Alta expressió booleana
+
+    Comprovar que:
+        S'obri la finestra del menú d'Alta expressió booleana
+
+
+
+Menú Modificar expressió booleana funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Expressions Booleanes
+        Fer clic sobre Modificar expressió booleana
+
+    Comprovar que:
+        S'obri la finestra del menú de Modificar expressió booleana
+
+
+
+Menú Esborrar expressió booleana funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Expressions Booleanes
+        Fer clic sobre Esborrar expressió booleana
+
+    Comprovar que:
+        S'obri la finestra del menú d'Esborrar expressió booleana
+
+
+
+Resetejar la base de dades funciona correctament
+
+    Passos a seguir:
+        Fer clic sobre el menú Documents
+        Fer clic sobre Alta un document
+
+        Introduir a:
+            Titol: La prova 1
+            Autor: Usuari
+            Contingut: Aquest és el contingut de la prova 1. Aquí acaba la prova 1.
+
+        Fer clic al botó Crear
+
+        Introduir a:
+            Titol: La prova 2
+            Autor: Usuari
+            Contingut: Aquest és el contingut de la prova 2. Aquí acaba la prova 2.
+
+        Fer clic al botó Crear
+
+        Fer clic al botó Inici
+
+        Fer clic sobre el menú Expressions Booleanes
+        Fer clic sobre Alta expressió booleana
+
+        Introduir a:
+            Nom: Prova 1
+            Expressió: {prova 1}
+
+        Fer clic al botó Donar d'alta
+
+        Introduir a:
+            Nom: Prova 2
+            Expressió: {prova 2}
+
+        Fer clic al botó Donar d'alta
+
+        Fer clic al botó Inici
+
+        Fer clic al botó Reset
+
+        Fer clic al botó Sí a la finestra emergent
+
+    Comprovar que:
+        Es mostri un missatge de color verd de confirmació de que s'ha resetejat la base de dades
+        No es mostri cap document ni autor en els menús de llistar documents i autors. Tampoc es puguin modificar ni donar de baixa les expressions booleanes creades prèviament.
+
+    Resultat:
+        La base de dades s'ha resetejat correctament
+
+
+
+
+
+        
+
+
+
+
+
+
